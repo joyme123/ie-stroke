@@ -40,9 +40,9 @@ module.exports = {
 	output: {
 		filename: outputFile,
         path: path.resolve(__dirname, 'lib'),
-        library: libraryName,
-        libraryTarget: 'umd',
-        umdNamedDefine: true
+        library: "IEStroke",
+		libraryTarget: 'umd',
+		umdNamedDefine: true
 	},
 	devtool: 'source-map',
 	devServer: {
